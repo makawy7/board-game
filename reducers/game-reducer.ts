@@ -1,4 +1,4 @@
-import { Tile } from "@/models/title"
+import { Tile } from "@/models/tile"
 import { uid } from "uid";
 
 type State = { board: String[][]; tiles: { [id: string]: Tile } }
